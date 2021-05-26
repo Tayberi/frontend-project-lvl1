@@ -1,2 +1,12 @@
 #!/usr/bin/env node
-console.log('Welcome to the Brain Games!');
+
+import { name } from '../src/cli.js';
+
+
+
+// console.log('Hello, ', name + '!');
+console.log(`Hello, ${name}!`);
+
+// import { name } from '../src/cli.js';
+// console.log('Welcome to the Brain Games!');
+// console.log(`Hello!${name}`);
