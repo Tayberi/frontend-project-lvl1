@@ -1,5 +1,5 @@
 install:
-	npm install
+	npm ci
 
 publish:
 	npm publish --dry-run
@@ -9,3 +9,6 @@ brain-games:
 
 lint:
 	npx eslint .
+
+link:
+	npm link
