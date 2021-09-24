@@ -5,7 +5,6 @@ name: CI
 # Trigger the workflow on push or pull request
 on:
   - push
-  - pull
 
 jobs:
   build:
