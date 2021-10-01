@@ -1,24 +1,24 @@
 import { generateRandomInt } from '../utils.js';
 
 const makeProgression = (startValue, step, length) => (new Array(length))
-    .fill(startValue)
-    .map((element, currentIndex) => (element + step * currentIndex));
+  .fill(startValue)
+  .map((element, currentIndex) => (element + step * currentIndex));
 
 const description = 'What number is missing in the progression?';
 const makeRound = () => {
-    const progressionStart = generateRandomInt(1, 50);
-    const progressionLength = 10;
-    const hiddenElementIndex = generateRandomInt(0, progressionLength - 1);
-    const progressionStep = generateRandomInt(1, 5);
+  const progressionStart = generateRandomInt(1, 50);
+  const progressionLength = 10;
+  const hiddenElementIndex = generateRandomInt(0, progressionLength - 1);
+  const progressionStep = generateRandomInt(1, 5);
 
-    const progression = makeProgression(progressionStart, progressionStep, progressionLength);
+  const progression = makeProgression(progressionStart, progressionStep, progressionLength);
 
-    const correctAnswer = progression[hiddenElementIndex].toString();
+  const correctAnswer = progression[hiddenElementIndex].toString();
 
-    progression[hiddenElementIndex] = '..';
-    const question = progression.join(' ');
+  progression[hiddenElementIndex] = '..';
+  const question = progression.join(' ');
 
-    return { correctAnswer, question };
+  return { correctAnswer, question };
 };
 
 export default { description, makeRound };
