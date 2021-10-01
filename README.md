@@ -4,8 +4,12 @@
 
 
 
-Запуск игры: make brain-even
+Запуск игры: make brain-even:
 
 [![asciicast](https://asciinema.org/a/XHqj3UFxdiBjCZOwJv2MpNNZ0.svg)](https://asciinema.org/a/XHqj3UFxdiBjCZOwJv2MpNNZ0)
+
+
+Запуск игры: make brain-calc:
+[![asciicast](https://asciinema.org/a/HqLVgdyb8cRZDAVal5vgbuJUb.svg)](https://asciinema.org/a/HqLVgdyb8cRZDAVal5vgbuJUb)
 
 
