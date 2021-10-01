@@ -14,3 +14,6 @@
 
 Запуск игры: make brain-gcd:
 [![asciicast](https://asciinema.org/a/NbHC0rQB4SlmitpjLwf9sDbap.svg)](https://asciinema.org/a/NbHC0rQB4SlmitpjLwf9sDbap)
+
+Запуск игры: make brain-progression:
+[![asciicast](https://asciinema.org/a/zaVfCne6FxtUnzEYgP2f0tzXG.svg)](https://asciinema.org/a/zaVfCne6FxtUnzEYgP2f0tzXG)
